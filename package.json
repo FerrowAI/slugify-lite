@@ -1,0 +1,11 @@
+{
+  "name": "slugify-lite",
+  "version": "1.0.0",
+  "description": "URL slugs: unicode to ASCII transliteration, word-boundary truncation, uniqueness helper",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": ["slug", "transliterate", "url", "sanitize", "latin", "typescript"],
+  "author": "Ruzylo-cloud",
+  "license": "MIT",
+  "engines": {"node": ">=18"}
+}

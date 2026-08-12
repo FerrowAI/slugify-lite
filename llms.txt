@@ -1,0 +1,18 @@
+# slugify-lite
+
+> URL slugs: unicode to ASCII transliteration for Latin-1/European diacritics, word-boundary truncation, uniqueness helper.
+
+Converts unicode strings to URL-safe slugs via built-in Latin-1/European diacritics transliteration (Crème → creme, Über → uber), lowercase, word-boundary-aware truncation, and a uniqueness helper (base, -2, -3) with custom predicates. Honest coverage: Latin scripts only, not full ICU.
+
+## API
+
+- `slugify(input: string, opts?: {separator?: string, maxLength?: number}): string` — Create slug
+- `unique(base: string, taken: (s: string) => boolean, maxAttempts?: number): string` — Ensure uniqueness
+
+## Install
+
+```
+npm i slugify-lite
+```
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai
