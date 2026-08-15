@@ -1,4 +1,8 @@
 # slugify-lite
+
+```sh
+npm install @ferrow/slugify-lite
+```
 ![CI](https://github.com/FerrowAI/slugify-lite/actions/workflows/ci.yml/badge.svg)
 
 URL slugs: unicode to ASCII transliteration, word-boundary truncation, uniqueness helper.
